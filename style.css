@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.navbar{
+    background-color: #fff;
+    padding-block: 1rem;
+}
+
+.navbar-items{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item{
+    list-style: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width:2rem;
+    margin-right: 0.25rem;
+}
+
+.main-block{
+    padding: 1rem;
+}
+
+.advetisement{
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.advetisement-info{
+    margin-left: 1rem;
+    max-width: 50%;
+}
+
+.adv{
+    border-radius: 12px;
+    width: 250px
+}
+
+.adv-wevsite{
+    font-size: 1rem;
+}
+
+.adv-title{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.adv-description{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.adv-button{
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    background-color: dodgerblue;
+    border-radius: 0.5rem;
+    border: 0;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.adv-button:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.card{
+    width: calc(33.33333% - 0.5rem);
+    min-height: 200px;
+    background-color: red;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.math{
+    background-image: url("./media/math.png");
+}
+
+.physics{
+    background-image: url("./media/physics.png");
+}
+
+.chemstry{
+    background-image: url("./media/chemstry.png");
+}
+
+.card-title{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    padding: 0.5rem;
+    background-color: bisque;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.suject-content{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+
+.suject-title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.formulas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subject-card{
+    border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    width: calc(33.33333% - 0.5rem);
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    min-height: 150px;
+    border: 1px solid red;
+    padding: 0.5rem;
+    display: flex;
+}
+
+.subject-card__img{
+    width: 120px;
+    height: 100%;
+    margin-right: 0.5rem;
+}
+
+.topc{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.formulas-count{
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.reverce-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-block: 0.5rem;
+}
+
+@media (max-width:480px) {
+    .advetisement{
+        display: block;
+    }
+
+    .advetisement-info{
+        max-width: 100%;
+    }
+
+    .adv{
+        text-align: center;
+        width: 100%
+    }
+}
