@@ -186,6 +186,11 @@ a{
     padding-block: 0.5rem;
 }
 
+
+.comb-img{
+    width:100%;
+    height: 200px;
+}
 @media (max-width:480px) {
     .advetisement{
         display: block;
